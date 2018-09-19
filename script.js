@@ -634,8 +634,8 @@ var kanon = {powerful: kanonPowerful, pure: kanonPure, cool: kanonCool, happy: k
 var girls = [];
 var attribute = "";
 
-var oldBand = ["/img/fresh.png", "/img/fresh.png", "/img/fresh.png", "/img/fresh.png", "/img/fresh.png"];
-var band = ["/img/fresh.png", "/img/fresh.png", "/img/fresh.png", "/img/fresh.png", "/img/fresh.png"];
+var oldBand = ["img/fresh.png", "img/fresh.png", "img/fresh.png", "img/fresh.png", "img/fresh.png"];
+var band = ["img/fresh.png", "img/fresh.png", "img/fresh.png", "img/fresh.png", "img/fresh.png"];
 
 function saveOldBand() {
     for (var i = 0; i < 5; i++){
@@ -660,15 +660,15 @@ function nextBestCard(n){
             current = current.substring(current.lastIndexOf('/')+1);
             switch(current){
                 case "powerful4.png":
-                    return "/img/powerful3.png";
+                    return "img/powerful3.png";
                 case "powerful3.png":
-                    return "/img/girl4.png";
+                    return "img/girl4.png";
                 case "girl4.png":
-                    return "/img/girl3.png";
+                    return "img/girl3.png";
                 case "girl3.png":
-                    return "/img/4.png";
+                    return "img/4.png";
                 case "4.png":
-                    return "/img/3.png";
+                    return "img/3.png";
             }
             break;
         case "pure":
@@ -685,15 +685,15 @@ function nextBestCard(n){
             current = current.substring(current.lastIndexOf('/')+1);
             switch(current){
                 case "pure4.png":
-                    return "/img/pure3.png";
+                    return "img/pure3.png";
                 case "pure3.png":
-                    return "/img/girl4.png";
+                    return "img/girl4.png";
                 case "girl4.png":
-                    return "/img/girl3.png";
+                    return "img/girl3.png";
                 case "girl3.png":
-                    return "/img/4.png";
+                    return "img/4.png";
                 case "4.png":
-                    return "/img/3.png";
+                    return "img/3.png";
             }
             break;
         case "cool":
@@ -710,15 +710,15 @@ function nextBestCard(n){
             current = current.substring(current.lastIndexOf('/')+1);
             switch(current){
                 case "cool4.png":
-                    return "/img/cool3.png";
+                    return "img/cool3.png";
                 case "cool3.png":
-                    return "/img/girl4.png";
+                    return "img/girl4.png";
                 case "girl4.png":
-                    return "/img/girl3.png";
+                    return "img/girl3.png";
                 case "girl3.png":
-                    return "/img/4.png";
+                    return "img/4.png";
                 case "4.png":
-                    return "/img/3.png";
+                    return "img/3.png";
             }
             break;
         case "happy":
@@ -735,19 +735,19 @@ function nextBestCard(n){
             current = current.substring(current.lastIndexOf('/')+1);
             switch(current){
                 case "happy4.png":
-                    return "/img/happy3.png";
+                    return "img/happy3.png";
                 case "happy3.png":
-                    return "/img/girl4.png";
+                    return "img/girl4.png";
                 case "girl4.png":
-                    return "/img/girl3.png";
+                    return "img/girl3.png";
                 case "girl3.png":
-                    return "/img/4.png";
+                    return "img/4.png";
                 case "4.png":
-                    return "/img/3.png";
+                    return "img/3.png";
             }
     }
      
-    return "/img/fresh.png";
+    return "img/fresh.png";
 }
 
 function remove(n){
