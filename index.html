@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#e6f0e6">
+<title>Band Creator</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Patrick+Hand" rel="stylesheet">
+<link rel="icon" href="img/girl4.png">
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    
+</head>
+    
+<body>
+    <div class="content">
+    <h1>BAND CREATOR</h1>
+    
+    <select id="attributeSelect">
+        <option value="powerful">Powerful</option>
+        <option value="pure">Pure</option>
+        <option value="cool">Cool</option>
+        <option value="happy">Happy</option>
+    </select>
+    <hr>
+    
+    <select id="bandSelect">
+        <option value="popipa">Poppin' Party</option>
+        <option value="afterglow">Afterglow</option>
+        <option value="pasupare">Pastel*Palettes</option>
+        <option value="roselia">Roselia</option>
+        <option value="harohapi">Hello, Happy World!</option>
+    </select>
+    <br>
+        
+    <button onclick="goBand()" class="button" id="goBand">GO!</button>
+        
+    <hr>
+    
+    <span id="girlSelect">
+        <label class="container">kasumi
+            <input id="kasumi" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">tae
+            <input id="tae" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">arisa
+            <input id="arisa" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">rimi
+            <input id="rimi" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">saaya
+            <input id="saaya" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <br>
+        
+        <label class="container">ran
+            <input id="ran" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">moca
+            <input id="moca" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">tsugumi
+            <input id="tsugumi" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">himari
+            <input id="himari" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">tomoe
+            <input id="tomoe" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <br>
+        
+        <label class="container">aya
+            <input id="aya" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">hina
+            <input id="hina" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">eve
+            <input id="eve" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">chisato
+            <input id="chisato" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">maya
+            <input id="maya" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <br>
+        
+        <label class="container">yukina
+            <input id="yukina" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">sayo
+            <input id="sayo" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">rinko
+            <input id="rinko" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">lisa
+            <input id="lisa" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">ako
+            <input id="ako" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <br>
+        
+        <label class="container">kokoro
+            <input id="kokoro" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">kaoru
+            <input id="kaoru" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">misaki
+            <input id="misaki" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">hagumi
+            <input id="hagumi" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">kanon
+            <input id="kanon" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <br>
+    </span>
+    
+    <button onclick="goGirls()" id="goGirls" class="button">GO!</button>
+    
+    <hr>
+    
+    
+    <div id="band">
+        <span id="bandSpan">
+        <img id="card0" src="/img/fresh.png">
+        <img id="card1" src="/img/fresh.png">
+        <img id="card2" src="/img/fresh.png">
+        <img id="card3" src="/img/fresh.png">
+        <img id="card4" src="/img/fresh.png">
+        </span>
+    </div>
+    <div id="remove">
+        <p onclick="remove(0)">x</p>
+        <p onclick="remove(1)">x</p>
+        <p onclick="remove(2)">x</p>
+        <p onclick="remove(3)">x</p>
+        <p onclick="remove(4)">x</p>
+    </div>
+        
+    <hr>
+    
+    <button onclick="undo()" id="undo" class="button">undo</button>
+    <hr>
+    <div id="howTo">
+        <h2>How to use:</h2>
+        <p>Use this band creator to figure out the ideal band currently possible - both in game and on your account. Some things didn't get factored in and I stopped after 3*s - I really just recommend scouting if you have 3*+ cards of less than 5 girls.</p>
+        <p>To see some more band building tips to give your team the final touch to maximize event points or score, <a href="help.html">head here.</a></p>
+        <br>
+        <img src="img/fresh.png">
+        <p>Pick an attribute, and a band or the five girls that get a boost for this event! Remove the ones you don't have with "x". (Make sure you wait for the new image to load!) If this image shows up again after clicking through the cards head to the <a href="help.html">tips section.</a></p>
+        <br>
+        
+        <img src="img/cool4.png">
+        <p>For images like these, pick a 4* card of the right attribute.</p>
+        <br>
+        
+        <img src="img/happy3.png">
+        <p>For images like these, pick a 3* card of the right attribute.</p>
+        <br>
+        
+        <img src="img/girl4.png">
+        <p>Pick a 4* card of the girl that was shown in this spot.</p>
+        <br>
+        
+        <img src="img/girl3.png">
+        <p>Pick a 3* card of the girl that was shown in this spot.</p>
+        <br>
+        
+        <img src="img/4.png">
+        <p>Pick any 4*.</p>
+        <br>
+        
+        <img src="img/3.png">
+        <p>Pick any 3*.</p>
+    </div>
+    <hr>
+    <a id="madeBy" href="https://jenniyoghurt.github.io/thingstoknow/" target="_blank">made by jenyoyo</a>
+        
+    </div>
+</body>
+
+</html>

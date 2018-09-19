@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: dimgray;
+    -webkit-text-size-adjust: none;
+    max-height: 100000px;
+}
+
+body{
+    background-color: rgba(210, 240, 230, 0.5);
+}
+
+.content{
+    width: 900px;
+    padding: 10px 0px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#madeBy{
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    color: rgba(150, 200, 190, 1);
+}
+
+#band {
+    background-color: dimgrey;
+    padding: 10px;
+    width: 780px;
+    font-size: 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#band img {
+    display: inline;
+    width: 150px;
+    padding: 3px;
+    
+}
+
+#remove {
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 0;
+    width:780px;
+    margin: 0 auto; 
+}
+
+#remove p {
+    display: inline-block;
+    width: 140px;
+    margin: 7px;
+    font-size: 30px;
+    color: dimgrey;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+#remove p:hover{
+    background-color: rgba(210, 240, 230, 1);
+}
+
+.button {
+    padding: 8px;
+    font-size: 20px;
+    width: 192px;
+    background-color: rgba(210, 240, 230, 1);
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: 208px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(150, 200, 190, 1);
+}
+
+#goGirls{
+    margin-top: -75px;
+}
+
+#goBand{
+}
+
+#undo {
+    background-color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+}
+#undo:hover{
+    background-color: rgba(210, 240, 230, 1);
+}
+
+input+p {
+    display: inline-block;
+    width: 80px;
+}
+
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 80px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: rgba(210, 240, 230, 1);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: rgba(210, 240, 230, 1);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid dimgray;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#girlSelect{
+    width: 600px;
+    display: block;
+    margin-left: 50px;
+}
+
+select{
+    padding: 8px;
+    font-size: 16px;
+    width: 192px;
+    background-color: rgba(210, 240, 230, 1);
+    border-radius: 5px;
+    margin: 4px;
+}
+
+#attributeSelect {
+    margin-left: 50px;
+}
+
+#bandSelect {
+    margin-left: 50px;
+}
+
+hr{
+    margin: 10px 50px;
+}
+
+#howTo img{
+    width: 60px;
+    display: inline;
+    vertical-align: middle;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#howTo p {
+    display: inline-block;
+    width: 700px;
+    vertical-align: middle;
+}
+
+#howTo p:nth-of-type(2), #howTo p:nth-of-type(1){
+    margin-left: 50px;
+}
+
+#help{
+    width: 800px;
+    padding: 50px;
+}
+
+#help p{
+    width: 800px;
+    display: inline-block;
+}
+#help h2{
+    margin-left: 0;
+}
+#help h3{
+    display: inline-block;
+    max-width: 800px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3em;
+}
+#help h3+p{
+    display: inline;
+    margin-left: 0;
+}
+#help hr{
+    width: 100%;
+    margin-left: auto;
+}
