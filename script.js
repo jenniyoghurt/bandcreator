@@ -315,7 +315,7 @@ var evePowerful3BS2 = "https://i.bandori.party/u/c/a/955Eve-Wakamiya-Power-PWs4o
 var evePowerful = [evePowerful4Wind, evePowerful3BS2];
 
 var evePure3Fairy = "https://i.bandori.party/u/c/a/662Eve-Wakamiya-Pure-Bouquet-Filled-With-My-Feelings-6IGIhi.png";
-evePure4NewYears = "https://i.bandori.party/u/c/a/801Eve-Wakamiya-Pure-My-First-Mochi-Pounding-qrBpqD.png";
+var evePure4NewYears = "https://i.bandori.party/u/c/a/801Eve-Wakamiya-Pure-My-First-Mochi-Pounding-qrBpqD.png";
 var evePure3Piano = "https://i.bandori.party/u/c/a/914Eve-Wakamiya-Pure-%E4%B8%8D%E5%B1%88%E3%81%AE%E5%89%A3%E5%A3%AB-MDWQCD.png";
 
 var evePure = [evePure4NewYears, evePure3Piano, evePure3Fairy];
@@ -336,8 +336,9 @@ var eve = {powerful: evePowerful, pure: evePure, cool: eveCool, happy: eveHappy}
 //chisato
 
 var chisatoPowerful3White = "https://i.bandori.party/u/c/a/637Chisato-Shirasagi-Power-Place-of-Purity-oDedsz.png";
+var chisatoPowerful4Classical = "https://i.bandori.party/u/c/a/1000Chisato-Shirasagi-Power-5GZOcy.png";
 
-var chisatoPowerful = [chisatoPowerful3White];
+var chisatoPowerful = [chisatoPowerful4Classical, chisatoPowerful3White];
 
 var chisatoPure4Fairy = "https://i.bandori.party/u/c/a/661Chisato-Shirasagi-Pure-Friends-I-Can-Trust-4gmhMr.png";
 var chisatoPure3Romeo = "https://i.bandori.party/u/c/a/693Chisato-Shirasagi-Pure-The-Name-of-Juliet-wTy95E.png";
@@ -563,8 +564,9 @@ var misakiPowerful = [misakiPowerful4FuwaFuwa, misakiPowerful3Halloween, misakiP
 
 var misakiPure3Snow = "https://i.bandori.party/u/c/a/882Michelle-Pure-For-Winter-Use-OtfrED.png";
 var misakiPure4Pirate = "https://i.bandori.party/u/c/a/962Misaki-Okusawa-Pure-Why-Is-It-Like-This-QDnyYP.png";
+var misakiPure3Classical = "https://i.bandori.party/u/c/a/1002Misaki-Okusawa-Pure-5AXTj2.png";
 
-var misakiPure = [misakiPure4Pirate, misakiPure3Snow];
+var misakiPure = [misakiPure4Pirate, misakiPure3Snow, misakiPure3Classical];
 
 var misakiCool4BadBear = "https://i.bandori.party/u/c/a/726Michelle-Cool-My-important-thing-2IRxFH.png";
 var misakiCool3Piano = "https://i.bandori.party/u/c/a/912Michelle-Cool-%E5%A0%85%E5%AE%9F%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC-kMTp0G.png";
@@ -607,8 +609,9 @@ var hagumi = {powerful: hagumiPowerful, pure: hagumiPure, cool: hagumiCool, happ
 
 var kanonPowerful3Wind = "https://i.bandori.party/u/c/a/778Kanon-Matsubara-Power-Transformation-technique-aX3Uv1.png";
 var kanonPowerful4Penguin = "https://i.bandori.party/u/c/a/796Kanon-Matsubara-Power-A-Determined-Step-xlBn05.png";
+var kanonPowerful4Classical = "https://i.bandori.party/u/c/a/1001Kanon-Matsubara-Power-mcwTcv.png";
 
-var kanonPowerful = [kanonPowerful4Penguin, kanonPowerful3Wind];
+var kanonPowerful = [kanonPowerful4Penguin, kanonPowerful4Classical, kanonPowerful3Wind];
 
 var kanonPure3Init = "https://i.bandori.party/u/c/a/555Kanon-Matsubara-Pure-One-Step-Forward-YED8lR.png";
 var kanonPure4Pirate = "https://i.bandori.party/u/c/a/963Kanon-Matsubara-Pure-Be-Brave-uo3B2O.png";
