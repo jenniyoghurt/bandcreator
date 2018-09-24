@@ -244,7 +244,7 @@ var tomoePure4FedoraDrum = "https://i.bandori.party/u/c/a/980Tomoe-Udagawa-Pure-
 var tomoePure = [tomoePure4FedoraDrum, tomoePure3Wedding];
 
 var tomoeCool3Init = "https://i.bandori.party/u/c/a/535Tomoe-Udagawa-Cool-You-re-Not-Being-Honest-FsPVwd.png";
-tomoeCool4Drum = "https://i.bandori.party/u/c/a/943Tomoe-Udagawa-Cool-5YJDng.png";
+var tomoeCool4Drum = "https://i.bandori.party/u/c/a/943Tomoe-Udagawa-Cool-5YJDng.png";
 
 var tomoeCool = [tomoeCool4Drum, tomoeCool3Init];
 
