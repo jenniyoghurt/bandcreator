@@ -92,8 +92,9 @@ var rimiPure = [rimiPure4Wedding];
 
 var rimiCool3Init = "https://i.bandori.party/u/c/a/511Rimi-Ushigome-Cool-Mustering-Courage-6tFSii.png";
 var rimiCool3Circling = "https://i.bandori.party/u/c/a/837Rimi-Ushigome-Cool-I-got-nervous-al6Gld.png";
+var rimiCool4DF = "https://i.bandori.party/u/c/a/1015Rimi-Ushigome-Cool-Important-Foundation-fjEFao.png";
 
-var rimiCool = [rimiCool3Init, rimiCool3Circling];
+var rimiCool = [rimiCool4DF, rimiCool3Init, rimiCool3Circling];
 
 var rimiHappy3Sleep = "https://i.bandori.party/u/c/a/616Rimi-Ushigome-Happy-The-Sister-I-Admire-QfrzrQ.png";
 var rimiHappy4BS2 = "https://i.bandori.party/u/c/a/926Rimi-Ushigome-Happy-wyzCPC.png";
@@ -271,8 +272,9 @@ var ayaPure3Bushido = "https://i.bandori.party/u/c/a/917Aya-Maruyama-Pure-PAqx9w
 var ayaPure = [ayaPure4DF, ayaPure3Bushido, ayaPure3Init];
 
 var ayaCool3PastelWonder = "https://i.bandori.party/u/c/a/887Aya-Maruyama-Cool-Maruyama-coming-through-ugELxg.png";
+var ayaCool4Halloween ="https://i.bandori.party/u/c/a/1005Aya-Maruyama-Cool-Aya-o-Lantern-KkvMov.png";
 
-var ayaCool = [ayaCool3PastelWonder];
+var ayaCool = [ayaCool4Halloween, ayaCool3PastelWonder];
 
 var ayaHappy3Cheer = "https://i.bandori.party/u/c/a/763Aya-Maruyama-Happy-Ossu-Ossu-Pkcrsg.png";
 var ayaHappy4BS2 = "https://i.bandori.party/u/c/a/952Aya-Maruyama-Happy-Vw2SXZ.png";
@@ -296,8 +298,9 @@ var hinaPure = [hinaPure3Survivor];
 var hinaCool3Astronomy = "https://i.bandori.party/u/c/a/623Hina-Hikawa-Cool-Several-Light-Years-of-Light-fzrcvZ.png";
 var hinaCool4PastelWonder = "https://i.bandori.party/u/c/a/883Hina-Hikawa-Cool-Tata-%E4%B8%80-It-s-Me-VZi5n9.png";
 var hinaCool3Bushido = "https://i.bandori.party/u/c/a/919Hina-Hikawa-Cool-jQQRx8.png";
+var hinaCool4Halloween = "https://i.bandori.party/u/c/a/1006Hina-Hikawa-Cool-Mischievous-Devil-rXv24z.png";
 
-var hinaCool = [hinaCool4PastelWonder, hinaCool3Bushido, hinaCool3Astronomy];
+var hinaCool = [hinaCool4PastelWonder, hinaCool4Halloween, hinaCool3Bushido, hinaCool3Astronomy];
 
 var hinaHappy4Tanzaku = "https://i.bandori.party/u/c/a/651Hina-Hikawa-Happy-A-Very-Important-Tanzaku-EXEyyE.png";
 var hinaHappy3Cafe = "https://i.bandori.party/u/c/a/767Hina-Hikawa-Happy-About-this-much-8meXOV.png"
@@ -337,8 +340,9 @@ var eve = {powerful: evePowerful, pure: evePure, cool: eveCool, happy: eveHappy}
 
 var chisatoPowerful3White = "https://i.bandori.party/u/c/a/637Chisato-Shirasagi-Power-Place-of-Purity-oDedsz.png";
 var chisatoPowerful4Classical = "https://i.bandori.party/u/c/a/1000Chisato-Shirasagi-Power-5GZOcy.png";
+var chisatoPowerful3Halloween = "https://i.bandori.party/u/c/a/1007Chisato-Shirasagi-Power-Idol-Witch-vR5Pu5.png";
 
-var chisatoPowerful = [chisatoPowerful4Classical, chisatoPowerful3White];
+var chisatoPowerful = [chisatoPowerful4Classical, chisatoPowerful3Halloween, chisatoPowerful3White];
 
 var chisatoPure4Fairy = "https://i.bandori.party/u/c/a/661Chisato-Shirasagi-Pure-Friends-I-Can-Trust-4gmhMr.png";
 var chisatoPure3Romeo = "https://i.bandori.party/u/c/a/693Chisato-Shirasagi-Pure-The-Name-of-Juliet-wTy95E.png";
@@ -369,8 +373,9 @@ var mayaPure4Snow = "https://i.bandori.party/u/c/a/878Maya-Yamato-Pure-Challenge
 var mayaPure = [mayaPure4Snow, mayaPure3Init];
 
 var mayaCool4Bushido = "https://i.bandori.party/u/c/a/916Maya-Yamato-Cool-Y92e0E.png";
+var mayaCool3Halloween = "https://i.bandori.party/u/c/a/1009Maya-Yamato-Cool-Sweet-Cat-IBO9HB.png";
 
-var mayaCool = [mayaCool4Bushido];
+var mayaCool = [mayaCool4Bushido, mayaCool3Halloween];
 
 var mayaHappy4Survivor = "https://i.bandori.party/u/c/a/736Maya-Yamato-Happy-Real-survivor-vfcul3.png";
 var mayaHappy3NewYears = "https://i.bandori.party/u/c/a/803Maya-Yamato-Happy-A-Reporter-s-Job-RvCBxO.png";
@@ -540,8 +545,9 @@ var kaoruPowerful = [kaoruPowerful4Bar, kaoruPowerful3Pirate];
 
 var kaoruPure4Romeo = "https://i.bandori.party/u/c/a/691Kaoru-Seta-Pure-An-Old-Name-muvavz.png";
 var kaoruPure3Penguin = "https://i.bandori.party/u/c/a/798Kaoru-Seta-Pure-An-Absolutely-Fleeting-Creature-2h59Mw.png";
+var kaoruPure4DF = "https://i.bandori.party/u/c/a/1016Kaoru-Seta-Pure-I-Want-It-nji1Jg.png";
 
-var kaoruPure = [kaoruPure4Romeo, kaoruPure3Penguin];
+var kaoruPure = [kaoruPure4DF, kaoruPure4Romeo, kaoruPure3Penguin];
 
 var kaoruCool3Init = "https://i.bandori.party/u/c/a/547Kaoru-Seta-Cool-The-Actress-Who-Paints-the-World-0TiCfN.png";
 
