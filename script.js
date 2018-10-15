@@ -515,8 +515,9 @@ var ako = {powerful: akoPowerful, pure: akoPure, cool: akoCool, happy: akoHappy}
 
 var kokoroPowerful3Init = "https://i.bandori.party/u/c/a/543Kokoro-Tsurumaki-Power-Invincible-Hero-gScu71.png";
 var kokoroPowerful4Halloween = "https://i.bandori.party/u/c/a/741Kokoro-Tsurumaki-Power-Apprentice-Witch-PjWDB9.png";
+var kokoroPowerful4BS2 = "https://i.bandori.party/u/c/a/1017Kokoro-Tsurumaki-Power-whnu17.png";
 
-var kokoroPowerful = [kokoroPowerful4Halloween, kokoroPowerful3Init];
+var kokoroPowerful = [kokoroPowerful4BS2, kokoroPowerful4Halloween, kokoroPowerful3Init];
 
 var kokoroPure3Sakura = "https://i.bandori.party/u/c/a/603Kokoro-Tsurumaki-Pure-Cherry-Blossom-Specials-VhIJ40.png";
 var kokoroPure4NewYears = "https://i.bandori.party/u/c/a/802Kokoro-Tsurumaki-Pure-Fun-filled-New-Year-MAJTL3.png";
@@ -550,8 +551,9 @@ var kaoruPure4DF = "https://i.bandori.party/u/c/a/1016Kaoru-Seta-Pure-I-Want-It-
 var kaoruPure = [kaoruPure4DF, kaoruPure4Romeo, kaoruPure3Penguin];
 
 var kaoruCool3Init = "https://i.bandori.party/u/c/a/547Kaoru-Seta-Cool-The-Actress-Who-Paints-the-World-0TiCfN.png";
+var kaoruCool3BS2 = "https://i.bandori.party/u/c/a/1019Kaoru-Seta-Cool-lVN0G6.png";
 
-var kaoruCool = [kaoruCool3Init];
+var kaoruCool = [kaoruCool3Init, kaoruCool3BS2];
 
 var kaoruHappy3Phantom = "https://i.bandori.party/u/c/a/612Kaoru-Seta-Happy-HaroHapi-Thief-gp8XDw.png";
 var kaoruHappy4WhiteDay = "https://i.bandori.party/u/c/a/893Kaoru-Seta-Happy-The-Star-of-the-Show-Appears-FbDOYr.png";
@@ -565,8 +567,9 @@ var kaoru = {powerful: kaoruPowerful, pure: kaoruPure, cool: kaoruCool, happy:ka
 var misakiPowerful3Phantom = "https://i.bandori.party/u/c/a/613Michelle-Power-Love-Confession-utp8LF.png";
 var misakiPowerful3Halloween = "https://i.bandori.party/u/c/a/742Michelle-Power-Witch-Michelle-8Siyss.png";
 var misakiPowerful4FuwaFuwa = "https://i.bandori.party/u/c/a/921Michelle-Power-mPSTJG.png";
+var misakiPowerful4BS2 = "https://i.bandori.party/u/c/a/1018Misaki-Okusawa-Power-ccBfVp.png";
 
-var misakiPowerful = [misakiPowerful4FuwaFuwa, misakiPowerful3Halloween, misakiPowerful3Phantom];
+var misakiPowerful = [misakiPowerful4FuwaFuwa, misakiPowerful4BS2, misakiPowerful3Halloween, misakiPowerful3Phantom];
 
 var misakiPure3Snow = "https://i.bandori.party/u/c/a/882Michelle-Pure-For-Winter-Use-OtfrED.png";
 var misakiPure4Pirate = "https://i.bandori.party/u/c/a/962Misaki-Okusawa-Pure-Why-Is-It-Like-This-QDnyYP.png";
@@ -601,8 +604,9 @@ var hagumiPure = [hagumiPure4Snow, hagumiPure3Nurse];
 
 var hagumiCool4Cheer = "https://i.bandori.party/u/c/a/761Hagumi-Kitazawa-Cool-Competitive-smile-UFmCAR.png";
 var hagumiCool4Tanabata = "https://i.bandori.party/u/c/a/958Hagumi-Kitazawa-Cool-Our-Beginning-VqTIio.png";
+var hagumiCool3BS2 = "https://i.bandori.party/u/c/a/1020Hagumi-Kitazawa-Cool-6N48NV.png";
 
-var hagumiCool = [hagumiCool4Tanabata, hagumiCool4Cheer];
+var hagumiCool = [hagumiCool4Tanabata, hagumiCool4Cheer, hagumiCool3BS2];
 
 var hagumiHappy3Init = "https://i.bandori.party/u/c/a/551Hagumi-Kitazawa-Happy-Everyone-ready-lets-go-tSeaD1.png";
 var hagumiHappy3Summer = "https://i.bandori.party/u/c/a/976Hagumi-Kitazawa-Happy-Midsummer-Jump-gAk2Vb.png";
@@ -616,8 +620,9 @@ var hagumi = {powerful: hagumiPowerful, pure: hagumiPure, cool: hagumiCool, happ
 var kanonPowerful3Wind = "https://i.bandori.party/u/c/a/778Kanon-Matsubara-Power-Transformation-technique-aX3Uv1.png";
 var kanonPowerful4Penguin = "https://i.bandori.party/u/c/a/796Kanon-Matsubara-Power-A-Determined-Step-xlBn05.png";
 var kanonPowerful4Classical = "https://i.bandori.party/u/c/a/1001Kanon-Matsubara-Power-mcwTcv.png";
+var kanonPowerful3BS2 = "https://i.bandori.party/u/c/a/1021Kanon-Matsubara-Power-qews69.png";
 
-var kanonPowerful = [kanonPowerful4Penguin, kanonPowerful4Classical, kanonPowerful3Wind];
+var kanonPowerful = [kanonPowerful4Penguin, kanonPowerful4Classical, kanonPowerful3BS2, kanonPowerful3Wind];
 
 var kanonPure3Init = "https://i.bandori.party/u/c/a/555Kanon-Matsubara-Pure-One-Step-Forward-YED8lR.png";
 var kanonPure4Pirate = "https://i.bandori.party/u/c/a/963Kanon-Matsubara-Pure-Be-Brave-uo3B2O.png";
