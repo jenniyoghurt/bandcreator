@@ -950,3 +950,108 @@ function go(){
 function test(){
     alert("YATTTAAAAA");
 }
+
+
+
+
+//Goals
+
+function showGoals(box){
+    $('#'.concat(box).concat('Content')).slideToggle("slow");
+}
+
+function cardImageHTMLReady(card){
+    return '<img src="'.concat(card).concat('">');
+}
+
+var images = "";
+
+function initFourBestsHome(){
+    images = images.concat(cardImageHTMLReady(ayaPowerful4White));
+    images = images.concat(cardImageHTMLReady(hinaPowerful4Bar));
+    images = images.concat(cardImageHTMLReady(sayoPowerful4DF));
+    images = images.concat(cardImageHTMLReady(yukinaPure4Rain));
+    images = images.concat(cardImageHTMLReady(mocaHappy4DF));
+    images = images.concat(cardImageHTMLReady(saayaPure4Init));
+    images = images.concat(cardImageHTMLReady(taePure4DF));
+    images = images.concat(cardImageHTMLReady(kanonPowerful4Penguin));
+    
+    document.getElementById('fourBestsHome').innerHTML = images;
+    
+    images = "";
+}
+
+function initFourBestsMissing(){
+    images = images.concat(cardImageHTMLReady(lisaPowerful4Valentines));
+    images = images.concat(cardImageHTMLReady(himariHappy4Howdy));
+    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
+    images = images.concat(cardImageHTMLReady(kokoroPowerful4Halloween));
+    
+    document.getElementById('fourBestsMissing').innerHTML = images;
+    
+    images = "";
+}
+
+function initThreeStarPlusMissing(){
+    images = images.concat(cardImageHTMLReady(arisaCool4Init));
+    images = images.concat(cardImageHTMLReady(rimiPure4Wedding));
+    images = images.concat(cardImageHTMLReady(tsugumiPowerful4DF));
+    images = images.concat(cardImageHTMLReady(tomoePure4FedoraDrum));
+    images = images.concat(cardImageHTMLReady(mocaPure4Comic));
+    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
+    images = images.concat(cardImageHTMLReady(yukinaPowerful4Anni1));
+    images = images.concat(cardImageHTMLReady(sayoHappy4Tanzaku));
+    
+    document.getElementById('threeStarPlusMissing').innerHTML = images;
+    
+    images = "";
+}
+
+function initFourAllHome(){
+    images = images.concat(cardImageHTMLReady(akoPowerful4Nurse));
+    images = images.concat(cardImageHTMLReady(arisaPure4Sakura));
+    images = images.concat(cardImageHTMLReady(ayaPowerful4White));
+    images = images.concat(cardImageHTMLReady(chisatoCool4PastelWonder));
+    images = images.concat(cardImageHTMLReady(eveCool4Bushido));
+    images = images.concat(cardImageHTMLReady(hagumiCool4Tanabata));
+    images = images.concat(cardImageHTMLReady(hinaPowerful4Bar));
+    images = images.concat(cardImageHTMLReady(kanonPowerful4Penguin));
+    images = images.concat(cardImageHTMLReady(kasumiCool4Tanabata));
+    images = images.concat(cardImageHTMLReady(mayaHappy4Survivor));
+    images = images.concat(cardImageHTMLReady(mocaHappy4DF));
+    images = images.concat(cardImageHTMLReady(rimiPowerful4Init));
+    images = images.concat(cardImageHTMLReady(rinkoCool4Phone));
+    images = images.concat(cardImageHTMLReady(saayaPure4Init));
+    images = images.concat(cardImageHTMLReady(sayoPowerful4DF));
+    images = images.concat(cardImageHTMLReady(taePure4DF));
+    images = images.concat(cardImageHTMLReady(yukinaPure4Rain));
+    
+    document.getElementById('fourAllHome').innerHTML = images;
+    
+    images = "";
+}
+
+function initFourAllMissing(){
+    images = images.concat(cardImageHTMLReady(himariHappy4Howdy));
+    images = images.concat(cardImageHTMLReady(kaoruPowerful4Bar));
+    images = images.concat(cardImageHTMLReady(kokoroPowerful4Halloween));
+    images = images.concat(cardImageHTMLReady(lisaPowerful4Valentines));
+    images = images.concat(cardImageHTMLReady(misakiCool4BadBear));
+    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
+    images = images.concat(cardImageHTMLReady(tomoeHappy4Howdy));
+    images = images.concat(cardImageHTMLReady(tsugumiHappy4Cafe));
+    
+    document.getElementById('fourAllMissing').innerHTML = images;
+    
+    images = "";
+}
+
+function initGoals(){
+    initFourBestsHome();
+    initFourBestsMissing();
+    
+    initThreeStarPlusMissing();
+    
+    initFourAllHome();
+    initFourAllMissing();
+}

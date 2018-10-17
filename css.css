@@ -9,6 +9,7 @@
 
 body{
     background-color: rgba(210, 240, 230, 0.5);
+    overflow-y: scroll;
 }
 
 .content{
@@ -257,4 +258,22 @@ hr{
 #help hr{
     width: 100%;
     margin-left: auto;
+}
+
+#contentGoals h2, h4 {
+    margin-left: 10px;
+}
+
+.goalBox{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: solid 1px;
+    margin: 5px auto;
+    max-width: 770px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.goalBox img {
+    margin-left: 10px;
+    width: 100px;
 }

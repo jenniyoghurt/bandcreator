@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#e6f0e6">
+<title>Band Creator</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Patrick+Hand" rel="stylesheet">
+<link rel="icon" href="asterisk.png">
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    
+</head>
+    
+<body onload="initGoals()">
+    <div id="contentGoals">
+        
+        <h1>goals.</h1>
+
+        <div id="fourBests" class="goalBox" onclick="showGoals('fourBests')">
+            <h2>4*s of all best girls.</h2>
+            <div id="fourBestsContent">
+            <h4>home:</h4>
+            <div id="fourBestsHome"></div>
+            <h4>missing:</h4>
+            <div id="fourBestsMissing"></div>
+            </div>
+        </div>
+        
+        <div id="threeStarPlus" class="goalBox" onclick="showGoals('threeStarPlus')">
+            <h2>3*+ of all girls and attributes.</h2>
+            <div id="threeStarPlusContent">
+            <h4>missing:</h4>
+            <div id="threeStarPlusMissing"></div>
+            </div>
+        </div>
+
+        <div id="fourAll" class="goalBox" onclick="showGoals('fourAll')">
+            <h2>4*s of all girls.</h2>
+            <div id="fourAllContent">
+            <h4>home:</h4>
+            <div id="fourAllHome"></div>
+            <h4>missing:</h4>
+            <div id="fourAllMissing"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+    
+</html>
