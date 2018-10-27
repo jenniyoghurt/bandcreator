@@ -1025,6 +1025,7 @@ function initFourAllHome(){
     images = images.concat(cardImageHTMLReady(sayoPowerful4DF));
     images = images.concat(cardImageHTMLReady(taePure4DF));
     images = images.concat(cardImageHTMLReady(yukinaPure4Rain));
+    images = images.concat(cardImageHTMLReady(misakiCool4BadBear));
     
     document.getElementById('fourAllHome').innerHTML = images;
     
@@ -1036,7 +1037,6 @@ function initFourAllMissing(){
     images = images.concat(cardImageHTMLReady(kaoruPowerful4Bar));
     images = images.concat(cardImageHTMLReady(kokoroPowerful4Halloween));
     images = images.concat(cardImageHTMLReady(lisaPowerful4Valentines));
-    images = images.concat(cardImageHTMLReady(misakiCool4BadBear));
     images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
     images = images.concat(cardImageHTMLReady(tomoeHappy4Howdy));
     images = images.concat(cardImageHTMLReady(tsugumiHappy4Cafe));
