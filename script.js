@@ -61,8 +61,9 @@ var arisaPowerful = [arisaPowerful4Valentines, arisaPowerful3Fireworks];
 
 var arisaPure4Sakura = "https://i.bandori.party/u/c/a/602Arisa-Ichigaya-Pure-Under-the-Blooming-Cherry-Blossoms-zsY7ox.png";
 var arisaPure3BS2 = "https://i.bandori.party/u/c/a/928Arisa-Ichigaya-Pure-fPqZIv.png";
+var arisaPure4Candy = "https://i.bandori.party/u/c/a/1022Arisa-Ichigaya-Pure-No-More-Playing-Dumb-SFIex5.png";
 
-var arisaPure = [arisaPure4Sakura, arisaPure3BS2];
+var arisaPure = [arisaPure4Candy, arisaPure4Sakura, arisaPure3BS2];
 
 var arisaCool4Init = "https://i.bandori.party/u/c/a/520Arisa-Ichigaya-Cool-Cute-Friends-CcW6Q9.png";
 var arisaCool3Christmas = "https://i.bandori.party/u/c/a/787Arisa-Ichigaya-Cool-Christmas-with-everyone-GspHgh.png";
@@ -226,8 +227,9 @@ var himariCool = [himariCool4Persona5, himariCool3FedoraDrums, himariCool3Sum];
 var himariHappy3Fedora = "https://i.bandori.party/u/c/a/792Himari-Uehara-Happy-Special-place-qGn4Zs.png";
 var himariHappy3WhiteDay = "https://i.bandori.party/u/c/a/897Himari-Uehara-Happy-Dance-Lesson-Q2JDza.png";
 var himariHappy4Howdy = "https://i.bandori.party/u/c/a/905Himari-Uehara-Happy-%E7%A7%81%E9%81%94-%E5%8F%82%E4%B8%8A%E3%81%A3-L8PMno.png";
+var himariHappy3Candy = "https://i.bandori.party/u/c/a/1024Himari-Uehara-Happy-High-Tension-KJadIU.png";
 
-var himariHappy = [himariHappy4Howdy, himariHappy3WhiteDay, himariHappy3Fedora];
+var himariHappy = [himariHappy4Howdy, himariHappy3WhiteDay, himariHappy3Fedora, himariHappy3Candy];
 
 var himari = {powerful: himariPowerful, pure: himariPure, cool: himariCool, happy: himariHappy};
 
@@ -471,8 +473,9 @@ var lisaPowerful = [lisaPowerful4Valentines, lisaPowerful3Bar];
 var lisaPure3Init = "https://i.bandori.party/u/c/a/591Lisa-Imai-Pure-Scars-of-Effort-MZt0ji.png";
 var lisaPure4Lisa = "https://i.bandori.party/u/c/a/781Lisa-Imai-Pure-Earnest-challenger-j2F2XJ.png";
 var lisaPure3Mermaid = "https://i.bandori.party/u/c/a/987Lisa-Imai-Pure-Summer-Sunlight-Xa44Mv.png";
+var lisaPure4Candy = "https://i.bandori.party/u/c/a/1023Lisa-Imai-Pure-Communication-MAX-s6HjDe.png";
 
-var lisaPure = [lisaPure4Lisa, lisaPure3Mermaid, lisaPure3Init];
+var lisaPure = [lisaPure4Lisa, lisaPure4Candy, lisaPure3Mermaid, lisaPure3Init];
 
 var lisaCool4Summer = "https://i.bandori.party/u/c/a/666Lisa-Imai-Cool-Dazzling-Sunlight-5o0v6o.png";
 var lisaCool3OnlineGame = "https://i.bandori.party/u/c/a/865Lisa-Imai-Cool-Beginner-Healer-aGlvOw.png";
