@@ -1014,7 +1014,7 @@ function initFourAllHome(){
     images = images.concat(cardImageHTMLReady(ayaPowerful4White));
     images = images.concat(cardImageHTMLReady(chisatoCool4PastelWonder));
     images = images.concat(cardImageHTMLReady(eveCool4Bushido));
-    images = images.concat(cardImageHTMLReady(hagumiCool4Tanabata));
+    images = images.concat(cardImageHTMLReady(hagumiCool4Cheer));
     images = images.concat(cardImageHTMLReady(hinaPowerful4Bar));
     images = images.concat(cardImageHTMLReady(kanonPowerful4Penguin));
     images = images.concat(cardImageHTMLReady(kasumiCool4Tanabata));
