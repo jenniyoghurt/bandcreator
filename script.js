@@ -998,7 +998,6 @@ function initFourBestsMissing(){
 function initThreeStarPlusMissing(){
     images = images.concat(cardImageHTMLReady(arisaCool4Init));
     images = images.concat(cardImageHTMLReady(rimiPure4Wedding));
-    images = images.concat(cardImageHTMLReady(tsugumiPowerful4DF));
     images = images.concat(cardImageHTMLReady(tomoePure4FedoraDrum));
     images = images.concat(cardImageHTMLReady(mocaPure4Comic));
     images = images.concat(cardImageHTMLReady(yukinaPowerful4Anni1));
