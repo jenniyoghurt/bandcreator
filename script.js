@@ -979,6 +979,8 @@ function initFourBestsHome(){
     images = images.concat(cardImageHTMLReady(taePure4DF));
     images = images.concat(cardImageHTMLReady(kanonPowerful4Penguin));
     images = images.concat(cardImageHTMLReady(lisaPure4Lisa));
+    images = images.concat(cardImageHTMLReady(kokoroHappy4Phantom));
+    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
     
     document.getElementById('fourBestsHome').innerHTML = images;
     
@@ -987,8 +989,6 @@ function initFourBestsHome(){
 
 function initFourBestsMissing(){
     images = images.concat(cardImageHTMLReady(himariHappy4Howdy));
-    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
-    images = images.concat(cardImageHTMLReady(kokoroPowerful4Halloween));
     
     document.getElementById('fourBestsMissing').innerHTML = images;
     
@@ -998,7 +998,6 @@ function initFourBestsMissing(){
 function initThreeStarPlusMissing(){
     images = images.concat(cardImageHTMLReady(arisaCool4Init));
     images = images.concat(cardImageHTMLReady(rimiPure4Wedding));
-    images = images.concat(cardImageHTMLReady(tsugumiPowerful4DF));
     images = images.concat(cardImageHTMLReady(tomoePure4FedoraDrum));
     images = images.concat(cardImageHTMLReady(mocaPure4Comic));
     images = images.concat(cardImageHTMLReady(yukinaPowerful4Anni1));
@@ -1028,6 +1027,8 @@ function initFourAllHome(){
     images = images.concat(cardImageHTMLReady(yukinaPure4Rain));
     images = images.concat(cardImageHTMLReady(misakiCool4BadBear));
     images = images.concat(cardImageHTMLReady(lisaPure4Lisa));
+    images = images.concat(cardImageHTMLReady(kokoroHappy4Phantom));
+    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
     
     document.getElementById('fourAllHome').innerHTML = images;
     
@@ -1037,8 +1038,6 @@ function initFourAllHome(){
 function initFourAllMissing(){
     images = images.concat(cardImageHTMLReady(himariHappy4Howdy));
     images = images.concat(cardImageHTMLReady(kaoruPowerful4Bar));
-    images = images.concat(cardImageHTMLReady(kokoroPowerful4Halloween));
-    images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
     images = images.concat(cardImageHTMLReady(tomoeHappy4Howdy));
     images = images.concat(cardImageHTMLReady(tsugumiHappy4Cafe));
     
