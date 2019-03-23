@@ -228,8 +228,9 @@ var himariHappy3Fedora = "https://i.bandori.party/u/c/a/792Himari-Uehara-Happy-S
 var himariHappy3WhiteDay = "https://i.bandori.party/u/c/a/897Himari-Uehara-Happy-Dance-Lesson-Q2JDza.png";
 var himariHappy4Howdy = "https://i.bandori.party/u/c/a/905Himari-Uehara-Happy-%E7%A7%81%E9%81%94-%E5%8F%82%E4%B8%8A%E3%81%A3-L8PMno.png";
 var himariHappy3Candy = "https://i.bandori.party/u/c/a/1024Himari-Uehara-Happy-High-Tension-KJadIU.png";
+var himariHappy4Soft = "https://i.bandori.party/u/c/a/1067Himari-Uehara-Happy-0oLBYj.png";
 
-var himariHappy = [himariHappy4Howdy, himariHappy3WhiteDay, himariHappy3Fedora, himariHappy3Candy];
+var himariHappy = [himariHappy4Soft, himariHappy4Howdy, himariHappy3WhiteDay, himariHappy3Fedora, himariHappy3Candy];
 
 var himari = {powerful: himariPowerful, pure: himariPure, cool: himariCool, happy: himariHappy};
 
@@ -981,6 +982,7 @@ function initFourBestsHome(){
     images = images.concat(cardImageHTMLReady(lisaPure4Lisa));
     images = images.concat(cardImageHTMLReady(kokoroHappy4Phantom));
     images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
+    images = images.concat(cardImageHTMLReady(himariHappy4Soft));
     
     document.getElementById('fourBestsHome').innerHTML = images;
     
@@ -988,7 +990,6 @@ function initFourBestsHome(){
 }
 
 function initFourBestsMissing(){
-    images = images.concat(cardImageHTMLReady(himariHappy4Howdy));
     
     document.getElementById('fourBestsMissing').innerHTML = images;
     
@@ -1029,6 +1030,7 @@ function initFourAllHome(){
     images = images.concat(cardImageHTMLReady(lisaPure4Lisa));
     images = images.concat(cardImageHTMLReady(kokoroHappy4Phantom));
     images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
+    images = images.concat(cardImageHTMLReady(himariHappy4Soft));
     
     document.getElementById('fourAllHome').innerHTML = images;
     
@@ -1036,7 +1038,6 @@ function initFourAllHome(){
 }
 
 function initFourAllMissing(){
-    images = images.concat(cardImageHTMLReady(himariHappy4Howdy));
     images = images.concat(cardImageHTMLReady(kaoruPowerful4Bar));
     images = images.concat(cardImageHTMLReady(tomoeHappy4Howdy));
     images = images.concat(cardImageHTMLReady(tsugumiHappy4Cafe));
