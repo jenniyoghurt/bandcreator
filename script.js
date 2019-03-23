@@ -1043,7 +1043,6 @@ function initFourAllMissing(){
 
 function initGoals(){
     initFourBestsHome();
-    initFourBestsMissing();
     
     initThreeStarPlusMissing();
     
