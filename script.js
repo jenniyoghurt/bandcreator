@@ -989,12 +989,6 @@ function initFourBestsHome(){
     images = "";
 }
 
-function initFourBestsMissing(){
-    
-    document.getElementById('fourBestsMissing').innerHTML = images;
-    
-    images = "";
-}
 
 function initThreeStarPlusMissing(){
     images = images.concat(cardImageHTMLReady(arisaCool4Init));
