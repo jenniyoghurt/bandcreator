@@ -983,6 +983,7 @@ function initFourBestsHome(){
     images = images.concat(cardImageHTMLReady(kokoroHappy4Phantom));
     images = images.concat(cardImageHTMLReady(ranHappy4Fedora));
     images = images.concat(cardImageHTMLReady(himariHappy4Soft));
+    images = images.concat(cardImageHTMLReady(hagumiCool4Cheer));
     
     document.getElementById('fourBestsHome').innerHTML = images;
     
